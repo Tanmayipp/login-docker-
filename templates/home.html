@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Welcome{% endblock %}
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card p-4 text-center">
+            <h2>Welcome, {{ user.username }}!</h2>
+            <p>You are now logged in.</p>
+            <p class="text-muted">Use the navigation bar above to logout or navigate to other pages.</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
